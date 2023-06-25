@@ -82,31 +82,29 @@ inquirer
     Email: ${githubEmail}
 
     ## Table Of Contents
-    + [Description](#-description:)
-    - [Installation](#-installation:)
-    * [Usage](#-usage:)
-    + [Contributing](#-contributing:)
-    - [Tests](#-tests:)
-    * [License](#-license:)
-    + [Questions](#-questions:)
-      `;
-      fs.writeFile('README.md', fileData, (err) =>
-      err ? console.error(err) : console.log('Success!')
-  );
-  
-    }
+    + [Description](#description)
+    - [Installation](#installation)
+    * [Usage](#usage)
+    + [Contributing](#contributing)
+    - [Tests](#tests)
+    * [License](#license)
+    + [Questions](#questions)
+    `;
+    fs.writeFile('README.md', fileData, (err) => err ? console.error(err) : console.log('Success!')
     );
+  }
+);
 
 
 
 // TODO: Create an array of questions for user input
-const questions = [];
+// const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
-init();
+// init();
