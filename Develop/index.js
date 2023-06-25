@@ -2,17 +2,19 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+let githubEmail = '';
+
 inquirer
   .prompt([
     {
       type: 'input',
       message: 'What is the title of your application? ',
-      name: 'projectTitle',
+      name: 'title',
     },
     {
       type: 'input',
       message: 'Enter a description for your application: ',
-      name: 'projectDescript',
+      name: 'description',
     },
     {
       type: 'input',
@@ -45,27 +47,55 @@ inquirer
         message: 'Enter your Email Address: ',
         name: 'email',
     },
+    {
+        type: 'input',
+        message: 'Enter your Github Username: ',
+        name: 'githubUserName',
+    },
+
   ])
   .then((response) =>{
     console.log(response);
-      const fileData = ` `;
+      const fileData = `
+    # ${title}
+
+    ## Description:
+    ${description}
+
+    ## Installation:
+    ${installInstructs}
+
+    ## Usage:
+    ${usageInstructs}
+
+    ## Contributing: 
+    ${contGuide}
+
+    ## Tests: 
+    ${testInstructs}
+
+    ## License:
+    Application License: ${license}
+
+    ## Questions:
+    Additional Questions:
+    Email: ${githubEmail}
+
+    ## Table Of Contents
+    + # description
+    - # installation
+    * # usage:
+    + # contributing:
+    - # tests:
+    * # license:
+    + # questions: 
+      `;
       fs.writeFile('README.md', fileData, (err) =>
       err ? console.error(err) : console.log('Success!')
   );
   
     }
     );
-
-
-
-
-
-
-
-
-
-
-
 
 
 
