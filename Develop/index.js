@@ -82,13 +82,13 @@ inquirer
     Email: ${githubEmail}
 
     ## Table Of Contents
-    + # description
-    - # installation
-    * # usage:
-    + # contributing:
-    - # tests:
-    * # license:
-    + # questions: 
+    + [Description](#-description:)
+    - [Installation](#-installation:)
+    * [Usage](#-usage:)
+    + [Contributing](#-contributing:)
+    - [Tests](#-tests:)
+    * [License](#-license:)
+    + [Questions](#-questions:)
       `;
       fs.writeFile('README.md', fileData, (err) =>
       err ? console.error(err) : console.log('Success!')
