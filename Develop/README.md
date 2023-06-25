@@ -22,10 +22,10 @@
 
 
 ## Table Of Contents
-+ # description
-- # installation
-* # usage:
-+ # contributing:
-- # tests:
-* # license:
-+ # questions: 
++ [Description](#-description:)
+- [Installation](#-installation:)
+* [Usage](#-usage:)
++ [Contributing](#-contributing:)
+- [Tests](#-tests:)
+* [License](#-license:)
++ [Questions](#-questions:)
