@@ -4,6 +4,15 @@
 ## Description:
 It is a website 
 
+## Table Of Contents
++ [Description](#description)
+- [Installation](#installation)
+* [Usage](#usage)
++ [Contributing](#contributing)
+- [Tests](#tests)
+* [License](#license)
++ [Questions](#questions)
+
 ## Installation:
 open it using file explorer
 
@@ -24,12 +33,5 @@ Additional Questions:
 Email: email@email.email.com
 Github: https://github.com/uppishdonkey
 
-## Table Of Contents
-+ [Description](#description)
-- [Installation](#installation)
-* [Usage](#usage)
-+ [Contributing](#contributing)
-- [Tests](#tests)
-* [License](#license)
-+ [Questions](#questions)
+
     
