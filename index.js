@@ -2,8 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
-
 inquirer
   .prompt([
     {
@@ -90,8 +88,7 @@ This application is covered under the ${response.license} license.
 Additional Questions:
 Email: ${response.email}
 Github: https://github.com/${response.githubUserName}
-`
-    ;
+`;
     fs.writeFile('genREADME.md', fileData, (err) => err ? console.error(err) : console.log('Success!')
     );
   }
