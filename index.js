@@ -57,40 +57,41 @@ inquirer
   .then((response) =>{
     console.log(response);
     const fileData = `
-    # ${response.title}
+# ${response.title}
 
-    ## Description:
-    ${response.description}
+## Description:
+${response.description}
 
-    ## Installation:
-    ${response.installInstructs}
+## Table Of Contents
++ [Description](#description)
+- [Installation](#installation)
+* [Usage](#usage)
++ [Contributing](#contributing)
+- [Tests](#tests)
+* [License](#license)
++ [Questions](#questions)
+    
+## Installation:
+${response.installInstructs}
 
-    ## Usage:
-    ${response.usageInstructs}
+## Usage:
+${response.usageInstructs}
 
-    ## Contributing: 
-    ${response.contGuide}
+## Contributing: 
+${response.contGuide}
 
-    ## Tests: 
-    ${response.testInstructs}
+## Tests: 
+${response.testInstructs}
 
-    ## License:
-    This application is covered under the ${response.license} license.
+## License:
+This application is covered under the ${response.license} license.
 
-    ## Questions:
-    Additional Questions:
-    Email: ${response.email}
-    Github: https://github.com/${response.githubUserName}
-
-    ## Table Of Contents
-    + [Description](#description)
-    - [Installation](#installation)
-    * [Usage](#usage)
-    + [Contributing](#contributing)
-    - [Tests](#tests)
-    * [License](#license)
-    + [Questions](#questions)
-    `;
+## Questions:
+Additional Questions:
+Email: ${response.email}
+Github: https://github.com/${response.githubUserName}
+`
+    ;
     fs.writeFile('genREADME.md', fileData, (err) => err ? console.error(err) : console.log('Success!')
     );
   }

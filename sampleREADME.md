@@ -1,35 +1,35 @@
 
-    # Web App
+# WebApp 
 
-    ## Description:
-    It is a website 
+## Description:
+It is a website 
 
-    ## Installation:
-    open it using file explorer
+## Installation:
+open it using file explorer
 
-    ## Usage:
-    use it 
+## Usage:
+use it 
 
-    ## Contributing: 
-    contribution guidelines
+## Contributing: 
+contribution guidelines
 
-    ## Tests: 
-    test instructions
+## Tests: 
+test instructions
 
-    ## License:
-    This application is covered under the None license.
+## License:
+This application is covered under the None license.
 
-    ## Questions:
-    Additional Questions:
-    Email: email@email.email.com
-    Github: https://github.com/uppishdonkey
+## Questions:
+Additional Questions:
+Email: email@email.email.com
+Github: https://github.com/uppishdonkey
 
-    ## Table Of Contents
-    + [Description](#description)
-    - [Installation](#installation)
-    * [Usage](#usage)
-    + [Contributing](#contributing)
-    - [Tests](#tests)
-    * [License](#license)
-    + [Questions](#questions)
+## Table Of Contents
++ [Description](#description)
+- [Installation](#installation)
+* [Usage](#usage)
++ [Contributing](#contributing)
+- [Tests](#tests)
+* [License](#license)
++ [Questions](#questions)
     
